@@ -29,9 +29,32 @@ Available as:
 ---
 
 ## Project Structure
--Data/ Raw and processed CSV datasets 
--Notebooks/ FinalProject.ipynb 
--Reports/ FinalReport and Data Quality Report
--Slides/ Powerpoint explaining findings
--README.md
--requirements.txt #Python depndencies 
+- data/           Raw and processed CSV datasets
+- notebooks/      FinalProject.ipynb
+- reports/        FinalReport and Data Quality Report
+- slides/         PowerPoint explaining findings
+- README.md       Project overview and instructions
+- requirements.txt Python dependencies
+
+## Installation 
+## Installation
+1. Clone Repository
+```bash
+git clone https://github.com/Habibahammadprogrammer/StudentsPerformance.git
+cd StudentsPerformance
+  
+python -m venv venv
+venv\Scripts\activate      # Windows
+# source venv/bin/activate  # macOS/Linux
+pip install -r requirements.txt
+```
+
+
+## Reproducibility 
+- The notebook is run from top to bottom 
+- If you don't have internet , csv files are available in Data/ folder 
+
+## Key Insights 
+
+## Author 
+Habiba Hammad 
