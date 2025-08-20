@@ -36,7 +36,6 @@ Available as:
 - README.md       Project overview and instructions
 - requirements.txt Python dependencies
 
-## Installation 
 ## Installation
 1. Clone Repository
 ```bash
