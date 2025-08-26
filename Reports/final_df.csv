@@ -1,0 +1,7 @@
+,Dataset,Model,Best Params,Best CV F1,accuracy,precision_score_macro,recall_score_macro,f1_score_macro,cv_score_macro
+0,df_with,LogisticRegression,{'C': 100},0.905,0.923,0.946,0.863,0.891,0.905
+1,df_with,RandomForest,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}",0.918,0.915,0.931,0.854,0.886,0.918
+2,df_with,DecisionTree,"{'criterion': 'gini', 'max_depth': 5, 'min_samples_split': 10}",0.912,0.923,0.936,0.87,0.899,0.912
+3,df_without,LogisticRegression,{'C': 100},0.486,0.6,0.475,0.426,0.435,0.486
+4,df_without,RandomForest,"{'max_depth': None, 'min_samples_split': 5, 'n_estimators': 100}",0.415,0.662,0.721,0.397,0.387,0.415
+5,df_without,DecisionTree,"{'criterion': 'entropy', 'max_depth': None, 'min_samples_split': 10}",0.495,0.546,0.425,0.425,0.424,0.495

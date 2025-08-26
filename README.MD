@@ -9,7 +9,7 @@ Key components:
 - Data transformation
 - Exploratory Data Analysis (EDA)
 - Unsupervised learning (K-Means clustering)
-- Supervised learning (classification: Logistic Regression, Random Forest, SVM)
+- Supervised learning (classification: Logistic Regression, Random Forest, Decision Tree)
 - Model evaluation and Comparison
 - Storytelling and Recommendations
 
@@ -54,6 +54,11 @@ pip install -r requirements.txt
 - If you don't have internet , csv files are available in Data/ folder 
 
 ## Key Insights 
+- Students absent more than 4 days within the first month show a 3× higher odds of failure
+- About 21% of students fall under the “Quiet Achievers” category
+- Parental educational support shows a strong positive correlation with student outcomes
+-  Students with previous course failures have significantly lower performance metrics
+-  Leveraging student clustering based on multi-dimensional data yields a 92% accuracy in early identification of at-risk students
 
 ## Author 
 Habiba Hammad 
